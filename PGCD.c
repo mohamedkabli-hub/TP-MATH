@@ -43,7 +43,7 @@ int main() {
         x1 = x2; y1 = y2;
     }
 
-    printf("\nSelon le theoreme de Bezout :\n");
+    printf("\n\n\nSelon le theoreme de Bezout :\n");
     printf("%d = (%d)(%d) + (%d)(%d)\n", pgcd, a_initial, x0, b_initial, y0);
     printf("=> x0 = %d, y0 = %d\n", x0, y0);
 
@@ -66,4 +66,5 @@ int main() {
 
     return 0;
 }
+
 
