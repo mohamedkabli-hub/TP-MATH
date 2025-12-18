@@ -12,7 +12,6 @@ int main() {
 
     a_initial = a;
     b_initial = b;
-
     // --- Algorithme d'Euclide ---
     printf("\n--- Etapes de l'algorithme d'Euclide ---\n");
     while (b != 0) {
@@ -25,7 +24,7 @@ int main() {
     int pgcd = a; // sauvegarde du PGCD
 
     printf("\n=> Le PGCD(%d, %d) = %d\n", a_initial, b_initial, pgcd);
-
+    if(a=1){printf("----%d et %d sont liee entre eux----",a_initial, b_initial);}
     // --- Théorème de Bézout ---
     int a_temp = a_initial, b_temp = b_initial;
     int x0 = 1, y0 = 0;
@@ -67,3 +66,4 @@ int main() {
 
     return 0;
 }
+
